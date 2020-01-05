@@ -11,5 +11,10 @@ public class ExistingApplication
 	{
 		SpringApplication.run(ExistingApplication.class, args);
 	}
+	
+	// DTOs (and general strat for response holder classes for marshaling to json
+	// Actuator customs
+	// Reactive for async/streams
+	// finish repository with relationships and cascades
 
 }

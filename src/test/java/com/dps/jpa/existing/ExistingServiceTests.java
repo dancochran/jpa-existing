@@ -47,6 +47,7 @@ public class ExistingServiceTests
 	{
 		Department deptval = new Department("d030", "Test Dept");
 		assertEquals(deptval, existingService.getDepartment("d030"));
+		
 	}
 	
 }
